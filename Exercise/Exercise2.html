@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 2</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		var angka1 = parseInt(prompt('Masukan angka pertama'));
+		var angka2 = parseInt(prompt('Masukan angka kedua'));
+		var fungsi = prompt('masukan operator: tambah, kurang, kali, bagi, pangkat, minimum, maximum');
+
+		if (fungsi == 'tambah') {
+		
+			alert(angka1 + angka2);
+		
+		} else if (fungsi == 'kurang') {
+
+			alert(angka1 - angka2);
+
+		} else if (fungsi == 'kali') {
+
+			alert(angka1 * angka2);
+
+		} else if (fungsi == 'bagi') {
+
+			alert(angka1 / angka2);
+
+		} else if (fungsi == 'pangkat') {
+
+			alert(Math.pow(angka1, angka2));
+
+		} else if (fungsi == 'minimum') {
+
+			alert(Math.min(angka1, angka2));
+		
+		} else if (fungsi == 'maximum') {
+			
+			alert(Math.max(angka1, angka2));
+		} 
+	</script>
+</body>
+</html>
